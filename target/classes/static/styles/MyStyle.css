@@ -1,0 +1,98 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8040;
+}
+
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.active {
+  background-color: #00ff40;
+}
+
+
+h1 {
+  display: block;
+  font-size: 2.33em;
+  margin-top: 0.90em;
+  margin-bottom: 2.33em;
+  margin-left: 1.55em;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+out {
+	color: blue;
+}
+
+table{
+  background-color: black;
+  
+}
+
+
+form {
+  background-color:rgba(0,0,0,0.25);
+  font-weight: bold;
+  font-size: 17.5px;
+  color: white;
+  text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	background-color:rgba(0,0,0,0.25);
+  font-weight: bold;
+  
+  color: white;
+  text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+  position: fixed;
+}
+
+img {
+	filter: grayscale(0.5) blur(0.5);
+}
+
+tr {
+	background-color: black;
+}
+
+td {
+  background-color: black;
+  color : honeydew;
+  font-weight: bold; 
+}
+
+mark {
+  font-size: 20em;
+  font-weight: bold;
+  mix-blend-mode: exclusion;
+  color: #fff;
+  background: transparent;
+  font-family: monospace;
+  line-height:0.6;
+}
